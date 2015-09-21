@@ -7,7 +7,7 @@ import javax.jws.soap.SOAPBinding.ParameterStyle;
 import javax.jws.soap.SOAPBinding.Use;
 
 @Local
-@WebService(targetNamespace="http://appa/ServiceA")
+@WebService(targetNamespace="http://appa/ServiceC")
 @SOAPBinding(style=javax.jws.soap.SOAPBinding.Style.RPC, use=Use.LITERAL, parameterStyle=ParameterStyle.WRAPPED)
 
 public interface IServiceC {
